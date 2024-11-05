@@ -1,4 +1,4 @@
-FROM python:3.14.0a1-bookworm
+FROM python:latest
 RUN mkdir /pdf && chmod 777 /pdf
 
 WORKDIR /ILovePDF
