@@ -1,4 +1,4 @@
-FROM python:latest
+FROM python:python:3.11
 RUN mkdir /pdf && chmod 777 /pdf
 
 WORKDIR /ILovePDF
